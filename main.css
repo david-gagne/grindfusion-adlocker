@@ -1,0 +1,116 @@
+.navbar-item .is-logo {
+    max-height: 3.75rem;
+}
+
+a.navbar-item.no-hover:hover {
+    background-color: inherit;
+}
+
+.is-roboto {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.is-arapey {
+    font-family: 'Arapey', sans-serif;
+}
+
+.is-open-sans {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.pulled-vertical-center {
+    position: relative;
+    margin-left: 3px;
+}
+
+.pulled-menu-vertical-center {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: -54px;
+}
+
+.is-outlined-transparent {
+    background-color: inherit;
+}
+
+.modal-background {
+    background-color: rgba(0, 0, 0, 1);
+    transition-property: background-color;
+    transition-duration: 2s;
+}
+
+.double-angle {
+    position: relative;
+    font-size: 3rem;
+}
+
+.twenty-pixels-padding {
+    padding: 20px 20px;
+}
+
+.bottom-spacer {
+    width: 10px;
+    height: 3px;
+    margin-top: 20px;
+    transition-property: width;
+    transition-duration: 1s;
+}
+
+.spacer-no-margin {
+   margin-top: 0;
+}
+
+.icon-border {
+    width: 33px;
+    height: 33px;
+    border: 2px solid grey;
+    border-radius: 50%;
+    transition-property: border;
+    transition-duration: 0.8s;
+    margin-right: 8px;
+}
+
+.border-black {
+    width: 33px;
+    height: 33px;
+    border: 2px solid grey;
+    border-radius: 50%;
+    transition-property: border;
+    transition-duration: 0.8s;
+    margin-right: 8px;
+}
+
+.icon > a {
+    color: inherit;
+    transition-property: color;
+    transition-duration: 0.8s;
+}
+
+.icon > a.icon-black {
+    color: inherit;
+    transition-property: color;
+    transition-duration: 0.8s;
+}
+
+.icon > a:hover {
+    color: #FFFFFF;
+} 
+
+.icon > a.icon-black:hover {
+    color: #000000;
+} 
+
+.icon-border:hover {
+    border: 2px solid #FFFFFF; 
+}
+
+.border-black:hover {
+    border: 2px solid #000000; 
+}
+
+@media screen and (min-width: 1088px) {
+    .pulled-menu-vertical-center {
+        position: initial;
+    }
+}
